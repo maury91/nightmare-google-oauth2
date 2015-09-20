@@ -2,19 +2,25 @@
   "name": "nightmare-google-oauth2",
   "description": "Nightmare plugin to automatically authenticate, authorize and retrieve a fresh token for Google APIs using OAuth2",
   "version": "0.1.5",
-  "repository": "h2non/nightmare-google-oauth2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h2non/nightmare-google-oauth2"
+  },
   "license": "MIT",
-  "author": "Tomas Aparicio",
+  "author": {
+    "name": "Tomas Aparicio"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "./node_modules/_bin/mocha --timeout 60000 --reporter spec --ui tdd"
+    "test": "mocha --timeout 60000 --reporter spec --ui tdd"
   },
   "dependencies": {
     "decamelize": "^1.0.0",
     "lodash.omit": "^3.0.0",
     "merge": "^1.2.0",
+    "prompt": "^0.2.14",
     "request": "^2.53.0"
   },
   "peerDependencies": {
@@ -35,5 +41,31 @@
     "token",
     "authentication",
     "auth"
-  ]
+  ],
+  "gitHead": "be8cb3b4fbc46ca78e4c7656ae1f367c8c464b22",
+  "bugs": {
+    "url": "https://github.com/h2non/nightmare-google-oauth2/issues"
+  },
+  "homepage": "https://github.com/h2non/nightmare-google-oauth2",
+  "_id": "nightmare-google-oauth2@0.1.5",
+  "_shasum": "3378fc55a1e7337bd6816a384988b95383ec9a88",
+  "_from": "nightmare-google-oauth2@>=0.1.0 <0.2.0",
+  "_npmVersion": "2.7.1",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "h2non",
+    "email": "tomas@aparicio.me"
+  },
+  "maintainers": [
+    {
+      "name": "h2non",
+      "email": "tomas@aparicio.me"
+    }
+  ],
+  "dist": {
+    "shasum": "3378fc55a1e7337bd6816a384988b95383ec9a88",
+    "tarball": "http://registry.npmjs.org/nightmare-google-oauth2/-/nightmare-google-oauth2-0.1.5.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nightmare-google-oauth2/-/nightmare-google-oauth2-0.1.5.tgz"
 }
